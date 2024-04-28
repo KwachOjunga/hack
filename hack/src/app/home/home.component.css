@@ -1,0 +1,100 @@
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			min-height: 100vh;
+			background-color: #f0f0f0;
+		}
+		.top-bar {
+			width: 100%;
+			background-color: #333;
+			color: #fff;
+			padding: 0.5rem 2rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo {
+			width: auto;
+			margin-left: 50px;
+			width: 80px; /* Adjust the width as needed */
+		}
+		.logo1 {
+			width: auto;
+			margin-left: 50px;
+			width: 200px; /* Adjust the width as needed */
+		}
+		.buttons {
+			display: flex;
+			margin-right: 50px;
+		}
+		.button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			margin-left: 10px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.container {
+			display: flex;
+			background-image: url('https://wrnjradio.com/wp-content/uploads/dairy-cows-520.jpg');
+            background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			/* width: 100%; */
+			/* margin: 0 auto; */
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			border-radius: 0px;
+			overflow: hidden; /* Adjust spacing from top bar */
+		}
+		.image-section {
+			border-color: black;
+			flex: 1;
+			background-image: url('https://wrnjradio.com/wp-content/uploads/dairy-cows-520.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 100vh;
+		}
+		.text-section {
+			flex: 1;
+			background-color: #4CAF50;
+			padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		h1 {
+			margin-top: 0;
+			margin-bottom: 1rem;
+			color: #f0f0f0;
+			font-weight: bolder;
+			font-size: 40px;
+			text-align: center;
+		}
+		p {
+			margin-bottom: 2rem;
+			text-align: center;
+			color: #f0f0f0;
+			font-size: 15px;
+		}
+		.button1 {
+			background-color: #000000;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			cursor: pointer;
+			border: none;
+			border-radius: 4px;
+		}
+	

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+
+  <app-home></app-home>
+
+  <div style="margin-top:30px">
+    <h3 style="text-align: center; text-decoration: underline;">START CHAT</h3>
+    <kendo-chat [user]="user" [messages]="$messages()" (sendMessage)="generate($event)" width="100%">
+      <ng-template kendoChatMessageTemplate let-message>
+        <div>
+        {{ message.text }}
+        {{message.avatar}}
+        </div>
+    </ng-template>
+    </kendo-chat>
+  </div>
+  
+
+  </body>
+</html>
