@@ -1,3 +1,3 @@
 export const environment = {
-    gemini_key: "AIzaSyAoPE0TUxDYhO227TyIDWezaKWzvwJH0ew"
+    gemini_key: "INSERT YOUR API KEY"
 };
